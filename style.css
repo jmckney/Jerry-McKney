@@ -59,7 +59,7 @@ body {
   }
 
   .skill {
-    background-color: #7ee00f5e;
+    background-color: #fff;
     border: black;
     border-style: solid;
     border-radius: 25px;
@@ -82,7 +82,7 @@ body {
   }
 
   .gradient-background {
-    background: linear-gradient(300deg, #17F2FC, #21E6B9, #16AEF2);
+    background: linear-gradient(300deg, #329AEA, #22B5D4, #27F6E1);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
