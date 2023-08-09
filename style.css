@@ -97,10 +97,39 @@ body {
     }
   }
 
-  .flex-container {
+  
+  .pricing-container {
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
   }
-  
+
+  .pricing-plan {
+    background-color: #7ee00f5e;
+    flex: wrap;
+    max-width: 350px;
+    padding: 10px;
+    text-align: left;
+    border: black;
+    border-style: solid;
+    border-radius: 25px;
+  }
+
+ 
+  .plan-title {
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+ 
+ 
+  /* Hint: What can you do with a media query and flexbox? */
+  @media (max-width: 800px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
